@@ -1,8 +1,9 @@
 type WeatherCode = {
   weather_code: number;
+  width: string
 };
 
-export default function WeatherIcon({ weather_code }: WeatherCode) {
+export default function WeatherIcon({ weather_code, width }: WeatherCode) {
   let imageName = "icon-loading.svg";
 
   if (weather_code === 0 || weather_code === 1) {
@@ -37,7 +38,7 @@ export default function WeatherIcon({ weather_code }: WeatherCode) {
     <img
       src={`/images/${imageName}`}
       alt="Current Weather"
-      className="weather-icon"
+      className={`weather-icon ${width}`}
     />
   );
 }
