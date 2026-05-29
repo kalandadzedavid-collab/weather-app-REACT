@@ -4,10 +4,10 @@ const Header = () => {
       <div className="flex items-center">
         <img src="/images/logo.svg" alt="" />
       </div>
-      <button className="bg-[#2f3047] px-3 py-1 rounded-2xl flex items-center gap-1">
+      {/* <button className="bg-[#2f3047] px-3 py-1 rounded-2xl flex items-center gap-1">
         <img src="/images/icon-units.svg" alt="" /> Units{" "}
         <img src="/images/icon-dropdown.svg" alt="" />
-      </button>
+      </button> */}
     </header>
   );
 };

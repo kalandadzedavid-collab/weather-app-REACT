@@ -3,7 +3,7 @@ import WeatherIcon from "./WeatherIcon";
 
 const Today = ({city, weather}) => {
   return (
-    <div className="px-20 flex items-center bg-cover rounded-2xl w-200 h-80 bg-[url(/images/bg-today-large.svg)]">
+    <div className="mb-10 px-20 flex items-center bg-cover rounded-2xl w-200 h-80 bg-[url(/images/bg-today-large.svg)]">
        {city && 
         <section className="flex items-center justify-between w-full">
 <div >
